@@ -1,0 +1,51 @@
+{
+  "name": "redle",
+  "version": "0.0.0",
+  "description": "redle is a set of utilities using requestIdleCallback for react",
+  "keywords": [
+    "react",
+    "requestIdleCallback",
+    "library"
+  ],
+  "type": "module",
+  "main": "dist/cjs/index.js",
+  "module": "dist/esm/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "test": "vitest",
+    "build": "tsc && vite build"
+  },
+  "dependencies": {
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "devDependencies": {
+    "@testing-library/jest-dom": "^6.4.5",
+    "@testing-library/react": "^15.0.7",
+    "@testing-library/user-event": "^14.5.2",
+    "@types/node": "^20.12.12",
+    "@types/react": "^18.3.2",
+    "@types/react-dom": "^18.3.0",
+    "@vitejs/plugin-react-swc": "^3.6.0",
+    "eslint": "^9.3.0",
+    "typescript": "^5.4.5",
+    "vite": "^5.2.11",
+    "vite-plugin-dts": "^3.9.1",
+    "vite-tsconfig-paths": "^4.3.2",
+    "vitest": "^1.6.0"
+  },
+  "peerDependencies": {
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "author": "@blan19",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/blan19/redle"
+  },
+  "bugs": {
+    "url": "https://github.com/blan19/redle/issues"
+  },
+  "homepage": "https://github.com/blan19/redle#readme"
+}
